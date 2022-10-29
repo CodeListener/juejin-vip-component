@@ -1,9 +1,15 @@
-<template></template>
-
-<script lang="tsx">
 import { defineComponent, PropType } from "vue";
 
-export type IColor = "black" | "gray" | "red" | "yellow" | "green" | "blue" | "indigo" | "purple" | "pink";
+export type IColor =
+  | "black"
+  | "gray"
+  | "red"
+  | "yellow"
+  | "green"
+  | "blue"
+  | "indigo"
+  | "purple"
+  | "pink";
 export type IIcon = "search" | "edit" | "check" | "message" | "delete";
 export default defineComponent({
   props: {
@@ -39,4 +45,3 @@ export default defineComponent({
     );
   },
 });
-</script>

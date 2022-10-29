@@ -1,7 +1,14 @@
 <template>
-  <yg-button v-for="item in arr" ::key="item.color" :color="item.color" :icon="item.icon">{{ item.color }}</yg-button>
+  <yg-button
+    v-for="item in arr"
+    :key="item.color"
+    :color="item.color"
+    :icon="item.icon"
+  >
+    {{ item.color }}
+  </yg-button>
 </template>
-<script setup>
+<script lang="ts" setup>
 import { ref } from "vue";
 
 const arr = ref([
