@@ -1,7 +1,7 @@
 import JsxButton from "./components/JsxButton";
 import SfcButton from "./components/button/index.vue";
 import { App } from "vue";
-
+import "uno.css"
 export { JsxButton, SfcButton };
 
 export default {
