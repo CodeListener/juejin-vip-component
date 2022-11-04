@@ -9,12 +9,13 @@ jobs:
   Lint: 
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@2
       - uses: pnpm/action-setup@v2.1.0
         with:
           version: 7.2.1
       
       - name: Install Modules
-        run: pnpm install
+        run: pwd && pnpm install
 
       - name: Run Format
         run: pnpm run format
