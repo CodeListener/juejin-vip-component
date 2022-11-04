@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [vue(), vueJsx(), Unocss()],
   build: {
     outDir: "./demo/dist",
-    minify: false,
+    minify: "terser",
+    sourcemap: true,
     rollupOptions: {
       external: ["vue"],
       output: {
