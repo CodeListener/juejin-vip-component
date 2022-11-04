@@ -8,3 +8,4 @@ coverage
 *.ttf
 dist
 *.d.ts
+.eslintignore.cjs

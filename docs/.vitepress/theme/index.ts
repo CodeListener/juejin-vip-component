@@ -1,3 +1,5 @@
+/// <reference path="../../shims-vue.d.ts" />
+
 import theme from "vitepress/dist/client/theme-default";
 import YangGuangUI from "../../../src/entry";
 

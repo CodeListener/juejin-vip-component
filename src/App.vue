@@ -1,10 +1,5 @@
 <template>
-  <yg-button
-    v-for="item in arr"
-    :key="item.color"
-    :color="item.color"
-    :icon="item.icon"
-  >
+  <yg-button v-for="item in arr" :key="item.color" :color="item.color" :icon="item.icon">
     {{ item.color }}
   </yg-button>
 </template>

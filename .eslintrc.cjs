@@ -12,7 +12,7 @@ module.exports = {
     __DEV__: true,
   },
   parser: "vue-eslint-parser",
-  extends: ["plugin:json/recommended", "plugin:vue/vue3-essential", "eslint:recommended", "@vue/prettier"],
+  extends: ["plugin:json/recommended", "plugin:vue/vue3-essential", "eslint:recommended", "@vue/prettier", "prettier", "plugin:prettier/recommended"],
   parserOptions: {
     parser: "@typescript-eslint/parser",
   },
